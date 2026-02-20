@@ -1,14 +1,14 @@
-<section class="relative h-screen w-full overflow-hidden bg-[oklch(0.596_0.145_163.225)] selection:bg-[oklch(0.905_0.093_164.15)] selection:text-[oklch(0.262_0.051_172.552)]">
+<section class="relative h-screen w-full overflow-hidden bg-navy-700 selection:bg-lavender-200 selection:text-navy-900">
     <!-- Abstract Background Recreation -->
     <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-        <!-- Base gradient using brand emerald tones -->
-        <div class="absolute inset-0 bg-gradient-to-br from-[oklch(0.596_0.145_163.225)] via-[oklch(0.508_0.118_165.612)] to-[oklch(0.432_0.095_166.913)]"></div>
+        <!-- Base gradient using brand navy tones -->
+        <div class="absolute inset-0 bg-gradient-to-br from-navy-700 via-navy-600 to-navy-800"></div>
         
-        <!-- Light streaks/blobs using lighter emerald tones for dappled light effect -->
-        <div class="bg-blur-shape bg-[oklch(0.845_0.143_164.978)] w-[150%] h-[40%] -top-[10%] -left-[20%] animate-fade-in delay-0"></div>
-        <div class="bg-blur-shape bg-[oklch(0.765_0.177_163.223)] w-[120%] h-[30%] top-[30%] -right-[20%] animate-fade-in delay-100"></div>
-        <div class="bg-blur-shape bg-[oklch(0.845_0.143_164.978)] w-[100%] h-[40%] bottom-[10%] left-[10%] animate-fade-in delay-200"></div>
-        <div class="bg-blur-shape bg-[oklch(0.765_0.177_163.223)] w-[80%] h-[50%] -bottom-[20%] -right-[10%] animate-fade-in delay-300"></div>
+        <!-- Light streaks/blobs using lavender and sand tones for dappled light effect -->
+        <div class="bg-blur-shape bg-lavender-300 w-[150%] h-[40%] -top-[10%] -left-[20%] animate-fade-in delay-0"></div>
+        <div class="bg-blur-shape bg-sand-300 w-[120%] h-[30%] top-[30%] -right-[20%] animate-fade-in delay-100"></div>
+        <div class="bg-blur-shape bg-lavender-200 w-[100%] h-[40%] bottom-[10%] left-[10%] animate-fade-in delay-200"></div>
+        <div class="bg-blur-shape bg-sand-200 w-[80%] h-[50%] -bottom-[20%] -right-[10%] animate-fade-in delay-300"></div>
         
         <!-- Noise texture overlay for grain -->
         <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E');"></div>
@@ -18,7 +18,7 @@
     <main class="relative z-10 flex flex-col items-center justify-center h-full w-full px-4 text-center">
         
         <!-- Headline -->
-        <h1 class="text-balance font-serif text-[oklch(0.985_0_0)] leading-[0.9] md:leading-[0.85] tracking-tight">
+        <h1 class="text-balance font-serif text-offwhite leading-[0.9] md:leading-[0.85] tracking-tight">
             <!-- Line 1: Italic -->
             <span class="block text-[13vw] sm:text-[12vw] md:text-[8rem] lg:text-[10rem] xl:text-[11rem] italic font-light animate-fade-in-up delay-200">
                 Approachable
@@ -30,7 +30,7 @@
         </h1>
 
         <!-- Subheadline -->
-        <p class="mt-8 md:mt-12 text-pretty font-sans text-lg md:text-2xl text-[oklch(0.985_0_0)] max-w-2xl opacity-90 animate-fade-in-up delay-500 font-light tracking-wide">
+        <p class="mt-8 md:mt-12 text-pretty font-sans text-lg md:text-2xl text-sand-100 max-w-2xl opacity-90 animate-fade-in-up delay-500 font-light tracking-wide">
             $20M+ in proven savings through vetted provider networks and elite dealership technology.
         </p>
 
@@ -38,11 +38,11 @@
 
     <!-- Bottom Left: Accessibility Toggle -->
     <div class="absolute bottom-6 left-6 md:bottom-8 md:left-8 z-20 animate-fade-in delay-700">
-        <button class="bg-[oklch(0.985_0_0)] rounded-full p-1 pr-4 flex items-center gap-3 border border-[oklch(0.922_0_0)] hover:border-[oklch(0.87_0_0)] transition-all group">
-            <span class="bg-[oklch(0.922_0_0)] group-hover:bg-[oklch(0.87_0_0)] transition-colors rounded-full px-3 py-1.5 text-[10px] md:text-xs font-sans uppercase tracking-widest text-[oklch(0.439_0_0)] font-medium">
+        <button class="bg-offwhite rounded-full p-1 pr-4 flex items-center gap-3 border border-warmgray-200 hover:border-warmgray-300 transition-all group">
+            <span class="bg-warmgray-200 group-hover:bg-warmgray-300 transition-colors rounded-full px-3 py-1.5 text-[10px] md:text-xs font-sans uppercase tracking-widest text-navy-800 font-medium">
                 Off
             </span>
-            <span class="text-[10px] md:text-xs font-sans text-[oklch(0.439_0_0)] tracking-wider">
+            <span class="text-[10px] md:text-xs font-sans text-navy-800 tracking-wider">
                 Accessibility Mode
             </span>
         </button>
