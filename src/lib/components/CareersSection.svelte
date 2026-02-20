@@ -3,7 +3,7 @@
     <h2 class="font-playfair text-6xl md:text-7xl text-gray-900 mb-6">Join the <span class="italic text-primary-600">Network</span></h2>
     <p class="font-lora text-xl text-gray-600 mb-16 max-w-lg mx-auto leading-relaxed">
       We are looking for the next generation of dealership technology advisors.<br />
-      Help us transform a $150B market.
+      Help us transform a <span class="text-lavender-600">$150B</span> market.
     </p>
 
     <div class="relative max-w-5xl mx-auto mb-16">
@@ -41,7 +41,8 @@
   .font-playfair { font-family: 'Playfair Display', serif; }
   .font-lora { font-family: 'Lora', serif; }
   .font-mono { font-family: 'DM Mono', monospace; }
-  .text-primary-600 { color: oklch(0.596 0.145 163.225); }
-  .bg-primary-600 { background-color: oklch(0.596 0.145 163.225); }
-  .bg-primary-700 { background-color: oklch(0.508 0.118 165.612); }
+  .text-primary-600 { color: #3d4e68; }
+  .bg-primary-600 { background-color: #3d4e68; }
+  .bg-primary-700 { background-color: #2f3d51; }
+  .text-lavender-600 { color: #7d68a8; }
 </style>

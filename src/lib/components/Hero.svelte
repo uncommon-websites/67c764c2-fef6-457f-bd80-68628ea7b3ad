@@ -31,7 +31,7 @@
 
         <!-- Subheadline -->
         <p class="mt-8 md:mt-12 text-pretty font-sans text-lg md:text-2xl text-sand-100 max-w-2xl opacity-90 animate-fade-in-up delay-500 font-light tracking-wide">
-            $20M+ in proven savings through vetted provider networks and elite dealership technology.
+            <span class="text-lavender-300">$20M+</span> in proven savings through vetted provider networks and elite dealership technology.
         </p>
 
     </main>

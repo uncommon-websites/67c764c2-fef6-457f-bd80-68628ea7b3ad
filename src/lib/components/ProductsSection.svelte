@@ -31,7 +31,7 @@
     <h2 class="font-playfair text-5xl md:text-6xl text-gray-900 mb-8">Comprehensive <span class="italic text-primary-600">Solutions</span></h2>
     
     <p class="font-lora text-lg text-gray-600 max-w-2xl mx-auto mb-16 leading-relaxed">
-      ACS Automotive delivers dealership technology transformation via vetted provider networks and guaranteed lowest pricing. We help you navigate the $150B dealer technology market with confidence.
+      ACS Automotive delivers dealership technology transformation via vetted provider networks and guaranteed lowest pricing. We help you navigate the <span class="text-lavender-600">$150B</span> dealer technology market with confidence.
     </p>
 
     <!-- Tabs -->
@@ -89,6 +89,7 @@
 <style>
   .font-playfair { font-family: 'Playfair Display', serif; }
   .font-lora { font-family: 'Lora', serif; }
-  .text-primary-600 { color: oklch(0.596 0.145 163.225); }
-  .bg-primary-600 { background-color: oklch(0.596 0.145 163.225); }
+  .text-primary-600 { color: #3d4e68; }
+  .bg-primary-600 { background-color: #3d4e68; }
+  .text-lavender-600 { color: #7d68a8; }
 </style>

@@ -50,5 +50,5 @@
 <style>
   .font-playfair { font-family: 'Playfair Display', serif; }
   .font-mono { font-family: 'DM Mono', monospace; }
-  .text-primary-600 { color: oklch(0.596 0.145 163.225); }
+  .text-primary-600 { color: #3d4e68; }
 </style>

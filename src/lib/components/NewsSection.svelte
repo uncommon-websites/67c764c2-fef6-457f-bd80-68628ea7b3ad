@@ -114,9 +114,9 @@
   .font-playfair { font-family: 'Playfair Display', serif; }
   .font-lora { font-family: 'Lora', serif; }
   .font-mono { font-family: 'DM Mono', monospace; }
-  .text-primary-600 { color: oklch(0.596 0.145 163.225); }
-  .text-primary-700 { color: oklch(0.508 0.118 165.612); }
-  .bg-primary-50 { background-color: oklch(0.979 0.021 166.113); }
-  .bg-primary-600 { background-color: oklch(0.596 0.145 163.225); }
-  .bg-primary-700 { background-color: oklch(0.508 0.118 165.612); }
+  .text-primary-600 { color: #3d4e68; }
+  .text-primary-700 { color: #2f3d51; }
+  .bg-primary-50 { background-color: #f0f2f5; }
+  .bg-primary-600 { background-color: #3d4e68; }
+  .bg-primary-700 { background-color: #2f3d51; }
 </style>

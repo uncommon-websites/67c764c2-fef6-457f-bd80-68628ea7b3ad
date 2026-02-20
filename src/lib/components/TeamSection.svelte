@@ -36,11 +36,11 @@
       </p>
       <div class="grid grid-cols-2 gap-8 pt-4">
         <div>
-          <h4 class="text-3xl font-playfair text-primary-700">2000+</h4>
+          <h4 class="text-3xl font-playfair text-lavender-600">2000+</h4>
           <p class="text-sm text-gray-500 uppercase tracking-widest font-mono">Target Clients</p>
         </div>
         <div>
-          <h4 class="text-3xl font-playfair text-primary-700">$150B</h4>
+          <h4 class="text-3xl font-playfair text-lavender-600">$150B</h4>
           <p class="text-sm text-gray-500 uppercase tracking-widest font-mono">Market Potential</p>
         </div>
       </div>
@@ -52,7 +52,8 @@
   .font-playfair { font-family: 'Playfair Display', serif; }
   .font-lora { font-family: 'Lora', serif; }
   .font-mono { font-family: 'DM Mono', monospace; }
-  .text-primary-600 { color: oklch(0.596 0.145 163.225); }
-  .text-primary-700 { color: oklch(0.508 0.118 165.612); }
-  .bg-primary-50 { background-color: oklch(0.979 0.021 166.113); }
+  .text-primary-600 { color: #3d4e68; }
+  .text-primary-700 { color: #2f3d51; }
+  .bg-primary-50 { background-color: #f0f2f5; }
+  .text-lavender-600 { color: #7d68a8; }
 </style>
