@@ -1,5 +1,5 @@
 <script lang="ts">
-  let activeTab = 'Transformation';
+  let activeTab = $state('Transformation');
   const tabs = ['Transformation', 'Vetted Network', 'Lowest Pricing', 'White-Glove'];
   
   const content = {
