@@ -36,17 +36,6 @@
 
     </main>
 
-    <!-- Bottom Left: Accessibility Toggle -->
-    <div class="absolute bottom-6 left-6 md:bottom-8 md:left-8 z-20 animate-fade-in delay-700">
-        <button class="bg-offwhite rounded-full p-1 pr-4 flex items-center gap-3 border border-warmgray-200 hover:border-warmgray-300 transition-all group">
-            <span class="bg-warmgray-200 group-hover:bg-warmgray-300 transition-colors rounded-full px-3 py-1.5 text-[10px] md:text-xs font-sans uppercase tracking-widest text-navy-800 font-medium">
-                Off
-            </span>
-            <span class="text-[10px] md:text-xs font-sans text-navy-800 tracking-wider">
-                Accessibility Mode
-            </span>
-        </button>
-    </div>
 </section>
 
 <style>
